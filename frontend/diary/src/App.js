@@ -5,10 +5,11 @@ import React, {useState, useEffect} from "react";
 function App() {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
-  const [posts, setPosts] = useState([]);
+  const [entrys, setEntries] = useState([]);
+  const endpoint = "https://980e0oj2pl.execute-api.us-east-1.amazonaws.com/live"
   useEffect(() => {
-    const getPosts = async() => {
-        const post_Data = await fetch(
+    const getEntries = async() => {
+        const entry_Data = await fetch(
             "https://980e0oj2pl.execute-api.us-east-1.amazonaws.com/live/entry/get",
             {
             headers: {
@@ -16,20 +17,20 @@ function App() {
                 },
             }
         );
-        const postData = await post_Data.json();
-        console.log(postData, "this one")
-        setPosts(postData)
-        console.log(posts)
+        const entryData = await entry_Data.json();
+        console.log(entryData, "this one")
+        setEntries(entryData)
+        console.log(entrys)
     }
-    getPosts();
+    getEntries();
 }, []);
 
 const handleSubmit = (e) => {
   e.preventDefault();
   console.log("function running")
-  const createPost = async () => {
+  const createEntry = async () => {
       try {
-      const postData = await fetch(
+      const entryData = await fetch(
           "https://980e0oj2pl.execute-api.us-east-1.amazonaws.com/live/entry/create",
           {
           method: "POST",
@@ -42,14 +43,14 @@ const handleSubmit = (e) => {
           })
           }
       );
-      const post_info = await postData.json();
-      console.log(post_info);
+      const entry_info = await entryData.json();
+      console.log(entry_info);
       } catch (e) {
       console.log(e.message);
       }
       window.location.reload(true);
   };
-  createPost();
+  createEntry();
 }
   return (
     <div className="App">
