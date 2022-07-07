@@ -1,0 +1,75 @@
+{
+    "c77f53f7806819d458c288f606dd3ca0": [],
+    "27866b0cfb358160f079e991682c5327": [
+        {
+            "top_module": {
+                "module_name": "sqlalchemy_aurora_data_api",
+                "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/sqlalchemy_aurora_data_api",
+                "is_dir": true,
+                "tag": "py3-none-any"
+            },
+            "dependencies": [
+                {
+                    "module_name": "six",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/six.py",
+                    "is_dir": false,
+                    "tag": "py2-none-any"
+                },
+                {
+                    "module_name": "urllib3",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/urllib3",
+                    "is_dir": true,
+                    "tag": "py2-none-any"
+                },
+                {
+                    "module_name": "botocore",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/botocore",
+                    "is_dir": true,
+                    "tag": "py3-none-any"
+                },
+                {
+                    "module_name": "sqlalchemy",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/sqlalchemy",
+                    "is_dir": true,
+                    "tag": "cp38-cp38-manylinux_2_5_x86_64"
+                },
+                {
+                    "module_name": "aurora_data_api",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/aurora_data_api",
+                    "is_dir": true,
+                    "tag": "py3-none-any"
+                },
+                {
+                    "module_name": "jmespath",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/jmespath",
+                    "is_dir": true,
+                    "tag": "py3-none-any"
+                },
+                {
+                    "module_name": "greenlet",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/greenlet",
+                    "is_dir": true,
+                    "tag": "cp38-cp38-manylinux_2_17_x86_64"
+                },
+                {
+                    "module_name": "boto3",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/boto3",
+                    "is_dir": true,
+                    "tag": "py3-none-any"
+                },
+                {
+                    "module_name": "dateutil",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/dateutil",
+                    "is_dir": true,
+                    "tag": "py2-none-any"
+                },
+                {
+                    "module_name": "s3transfer",
+                    "absolute_fs_position": "/home/jtfrench/cdev-projects/tutorials/diary-fullstack/.venv/lib/python3.8/site-packages/s3transfer",
+                    "is_dir": true,
+                    "tag": "py3-none-any"
+                }
+            ]
+        }
+    ]
+}

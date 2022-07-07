@@ -1,0 +1,17 @@
+{
+    "resource_state_locations": {
+        "d1dabf34-9e0c-47f6-b1b6-8fdccc98c66d": ".cdev/state/resource_state_d1dabf34-9e0c-47f6-b1b6-8fdccc98c66d.json",
+        "95e22631-1e41-4c83-b585-ceef71a82381": ".cdev/state/resource_state_95e22631-1e41-4c83-b585-ceef71a82381.json",
+        "e1bb17d4-ef2b-4493-948c-9a8c6554d1c6": ".cdev/state/resource_state_e1bb17d4-ef2b-4493-948c-9a8c6554d1c6.json"
+    },
+    "top_level_states": [
+        "d1dabf34-9e0c-47f6-b1b6-8fdccc98c66d",
+        "95e22631-1e41-4c83-b585-ceef71a82381",
+        "e1bb17d4-ef2b-4493-948c-9a8c6554d1c6"
+    ],
+    "resource_state_names": [
+        "prod",
+        "stage",
+        "dev"
+    ]
+}

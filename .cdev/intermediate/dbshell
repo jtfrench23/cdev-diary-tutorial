@@ -1,0 +1,8 @@
+BEGIN
+SELECT * FROM entries
+SELECT * FROM entries
+INSERT INTO entries(title, content) VALUES ('test','test entry')
+INSERT INTO entries(title, content) VALUES ('test','test entry')
+COMMIT
+SELECT * FROM entries
+SELECT * FROM entries
